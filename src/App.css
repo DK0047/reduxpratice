@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.btn-wrapper button {
+  background-color: rgb(243, 39, 39);
+  border: 0px;
+  padding: 15px;
+ 
+  border-radius: 6px;
+  color: rgb(218, 213, 213);
+  box-shadow: rgb(39, 33, 33) 0px 1px 5px;
+  margin-left:45px;
+  /* font-size: 16px; */
+  font-style: italic;
+ }
+
+.img-wrapper img{
+  width: 100px;
+  
+}
+.card-wrapper{
+    height: 200px;
+    width:600px;
+    border: 2px solid rgb(14, 20, 20);
+    margin-left: 30%;
+    
+}
+.item {
+  /* float: center;  */
+  display: inline-block;
+  width: 120px;
+  padding: 14px;
+  height: 70px;
+  margin-top: 20px;
+}
+.add-to-cart {
+    width: 80px;
+    position: absolute;
+    right: 10%;
+    top: 10%;
+   
+} 
+
+.text-wrapper {
+  font-size: 24px;;
+}
+.cart-count{
+    position: absolute;
+    left: 125px;
+    top: 39px;
+    z-index: 1;
+    background-color: red;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 60%;
+    color: #fff;
+}
+button.remove-cart-btn{
+  background-color: rgb(102, 102, 241);
+  margin-top: 8px;
+  
+}
